@@ -1,0 +1,14 @@
+  version: '3.8'  # 升级版本到3.8及以上
+  services:
+    jingyan-app:
+      build:
+        context: .
+      image: jingyan:latest
+      container_name: jingyan-container
+      ports:
+        - "25000:5000"
+      volumes:
+        - ./:/app
+      command: ["python", "main.py"]
+      restart: unless-stopped
+      

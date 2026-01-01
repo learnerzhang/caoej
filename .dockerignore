@@ -1,0 +1,16 @@
+# .dockerignore 文件内容
+.git
+venv
+tests
+test
+exports
+outputs
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.env
+*.pkl
+*.png
+.dockerignore
+Dockerfile

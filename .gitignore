@@ -1,0 +1,35 @@
+# 忽略所有 .idea 目录（IntelliJ IDEA 项目目录）
+.idea/
+
+# 忽略所有 .vscode 目录（Visual Studio Code 项目目录）
+.vscode/
+
+# 忽略所有 macOS 系统生成的 .DS_Store 文件
+.DS_Store
+
+# 忽略所有 .pyc 文件（Python 字节码文件）
+*.pyc
+
+# 忽略所有 log 文件
+*.log
+
+# 忽略所有 tmp 目录
+tmp/
+logs/
+# 忽略所有以 # 开头的临时文件
+#*.swp
+data/
+features/
+exports/
+imports
+# 忽略所有 build 目录
+build/
+static/
+myenv/
+outputs/
+tests/
+my-ui/
+# 忽略所有 settings.py 文件
+**/settings.py
+
+settings.py

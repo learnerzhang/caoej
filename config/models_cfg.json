@@ -1,0 +1,155 @@
+{
+
+    "time_tree_regression": {
+        "model_name": "TimePredictor",
+        "model_value": "opening_time",
+        "model_tag": "TreeModel",
+        "model_label": "树模型",
+        "model_desc": "开闸时间-回归模型",
+        "model_path": "outputs/kz_time/pkls/0822_kz_time_regression_model.pkl",
+        "model_type": "regression"
+    },
+    "dura_tree_classification": {
+        "model_name": "DuraPredictor",
+        "model_value": "duration_in_hours",
+        "model_tag": "TreeModel",
+        "model_label": "树模型",
+        "model_encoder_path": "outputs/kz_dura/pkls/0822_kz_dura_label_encoder.pkl",
+        "model_desc": "开闸时长-分类模型",
+        "model_path": "outputs/kz_dura/pkls/0822_kz_dura_classification_model.pkl",
+        "model_type": "classification"
+    },
+    "num_tree_classification":{
+        "model_name": "NumPredictor",
+        "model_value": "gate_count",
+        "model_tag": "TreeModel",
+        "model_label": "树模型",
+        "model_desc": "闸门数量-分类模型",
+        "model_path": "outputs/kz_num/pkls/0822_kz_num_classification_model.pkl",
+        "model_type": "classification"
+    },
+    "level_tree_regression": {
+        "model_name": "LevelPredictor",
+        "model_value": "target_water_level",
+        "model_tag": "TreeModel",
+        "model_label": "树模型",
+        "model_desc": "目标水位-回归模型",
+        "model_path": "outputs/kz_level/pkls/0822_kz_level_regression_model.pkl",
+        "model_type": "regression"
+    },
+    "dura_dot_num_tree_regression":{
+        "model_name": "CombPredictor",
+        "model_value": ["duration_in_hours", "gate_count"],
+        "model_tag": "DN-TreeModel",
+        "model_label": "时长-孔数组合-树模型",
+        "model_desc": "时长-孔数组合-回归模型",
+        "model_path": "outputs/kz_comb_log/pkls/0822_kz_comb_log_regression_model.pkl",
+        "model_type": "regression"
+    },
+    "time_lr_regression": {
+        "model_name": "TimePredictor",
+        "model_value": "opening_time",
+        "model_tag": "LRModel",
+        "model_label": "LR逻辑回归模型",
+        "model_desc": "开闸时间-回归模型",
+        "model_path": "outputs/kz_time/pkls/0822_kz_time_lr_regression_model.pkl",
+        "model_type": "regression"
+    },
+    "dura_lr_regression": {
+        "model_name": "DuraPredictor",
+        "model_value": "duration_in_hours",
+        "model_tag": "LRModel",
+        "model_label": "LR逻辑回归模型",
+        "model_desc": "开闸时长-分类模型",
+        "model_path": "outputs/kz_dura/pkls/0822_kz_dura_lr_classification_model.pkl",
+        "model_type": "classification"
+    },
+    "num_lr_regression": {
+        "model_name": "NumPredictor",
+        "model_value": "gate_count",
+        "model_tag": "LRModel",
+        "model_label": "LR逻辑回归模型",
+        "model_desc": "闸口数量-分类模型",
+        "model_path": "outputs/kz_num/pkls/0822_kz_num_lr_classification_model.pkl",
+        "model_type": "classification"
+    },
+    "level_lr_regression": {
+        "model_name": "NumPredictor",
+        "model_value": "target_water_level",
+        "model_tag": "LRModel",
+        "model_label": "LR逻辑回归模型",
+        "model_desc": "闸口数量-回归模型",
+        "model_path": "outputs/kz_level/pkls/0822_kz_level_lr_regression_model.pkl",
+        "model_type": "regression"
+    },"time_svm_regression": {
+        "model_name": "TimePredictor",
+        "model_value": "opening_time",
+        "model_tag": "SVMModel",
+        "model_label": "SVM模型",
+        "model_desc": "开闸时间-回归模型",
+        "model_path": "outputs/kz_time/pkls/0822_kz_time_svm_regression_model.pkl",
+        "model_type": "regression"
+    },
+    "dura_svm_regression": {
+        "model_name": "DuraPredictor",
+        "model_value": "duration_in_hours",
+        "model_tag": "SVMModel",
+        "model_label": "SVM模型",
+        "model_desc": "开闸时长-分类模型",
+        "model_path": "outputs/kz_dura/pkls/0822_kz_dura_svm_classification_model.pkl",
+        "model_type": "classification"
+    },
+    "num_svm_regression": {
+        "model_name": "NumPredictor",
+        "model_value": "gate_count",
+        "model_tag": "SVMModel",
+        "model_label": "SVM模型",
+        "model_desc": "闸口数量-分类模型",
+        "model_path": "outputs/kz_num/pkls/0822_kz_num_svm_classification_model.pkl",
+        "model_type": "classification"
+    },
+    "level_svm_regression": {
+        "model_name": "NumPredictor",
+        "model_value": "target_water_level",
+        "model_tag": "SVMModel",
+        "model_label": "SVM模型",
+        "model_desc": "闸口数量-回归模型",
+        "model_path": "outputs/kz_level/pkls/0822_kz_level_svm_regression_model.pkl",
+        "model_type": "regression"
+    },"time_mlp_regression": {
+        "model_name": "TimePredictor",
+        "model_value": "opening_time",
+        "model_tag": "MLPModel",
+        "model_label": "神经网络模型",
+        "model_desc": "开闸时间-回归模型",
+        "model_path": "outputs/kz_time/pkls/0822_kz_time_mlp_regression_model.pkl",
+        "model_type": "regression"
+    },
+    "dura_mlp_regression": {
+        "model_name": "DuraPredictor",
+        "model_value": "duration_in_hours",
+        "model_tag": "MLPModel",
+        "model_label": "神经网络模型",
+        "model_desc": "开闸时长-分类模型",
+        "model_path": "outputs/kz_dura/pkls/0822_kz_dura_mlp_classification_model.pkl",
+        "model_type": "classification"
+    },
+    "num_mlp_regression": {
+        "model_name": "NumPredictor",
+        "model_value": "gate_count",
+        "model_tag": "MLPModel",
+        "model_label": "神经网络模型",
+        "model_desc": "闸口数量-分类模型",
+        "model_path": "outputs/kz_num/pkls/0822_kz_num_mlp_classification_model.pkl",
+        "model_type": "classification"
+    },
+    "level_mlp_regression": {
+        "model_name": "NumPredictor",
+        "model_value": "target_water_level",
+        "model_tag": "MLPModel",
+        "model_label": "神经网络模型",
+        "model_desc": "闸口数量-回归模型",
+        "model_path": "outputs/kz_level/pkls/0822_kz_level_mlp_regression_model.pkl",
+        "model_type": "regression"
+    }
+}
